@@ -26,7 +26,7 @@ else
   echo "$fileList" > "$cachePath"
 fi
 
-fileList="$(echo "$fileList" | grep -ve "$script_gamecode")"
+fileList="$(echo "$fileList" | grep -vEe "$script_gamecode|CLV-S-[0-9]{5}")"
 [ "$sftype" != "nes" ] && fileList="$(echo "$fileList" | grep -ve "^$gameStorage/nes/")"
 
 while true
