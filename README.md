@@ -3,3 +3,5 @@ A script that can be added as a game to a NES or SNES classic that will choose a
 
 # Usage
 Just add it as a game in hakchi2, make sure it isn't compressed!
+
+# NES Support: Coming Soon!
